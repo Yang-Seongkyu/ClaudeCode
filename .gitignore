@@ -1,0 +1,41 @@
+# ===== OS =====
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ===== Editors / IDE =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# ===== Claude Code (personal settings) =====
+.claude/settings.local.json
+
+# ===== Secrets / env =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ===== Logs / temp =====
+*.log
+*.tmp
+tmp/
+temp/
+
+# ===== Node.js =====
+node_modules/
+dist/
+build/
+.npm/
+npm-debug.log*
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
