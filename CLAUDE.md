@@ -26,6 +26,9 @@ Guidance for Claude Code (local and cloud sessions) working in this repository.
 
 - Run tests: `./gradlew test`
 - Start server: `./gradlew bootRun`, then open http://localhost:8080/hello
+- Todo API: `GET/POST /todos`, `GET/PATCH/DELETE /todos/{id}` (code in `com.example.app.todo`)
+- Swagger UI: http://localhost:8080/swagger-ui.html (OpenAPI JSON at `/v3/api-docs`; springdoc version must match the Spring Boot line)
+- H2 console: http://localhost:8080/h2-console (JDBC URL `jdbc:h2:mem:appdb`, user `sa`, no password)
 
 ## Conventions
 
