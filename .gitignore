@@ -39,3 +39,9 @@ __pycache__/
 .venv/
 venv/
 .pytest_cache/
+
+# ===== Java / Gradle =====
+.gradle/
+out/
+*.class
+!gradle/wrapper/gradle-wrapper.jar

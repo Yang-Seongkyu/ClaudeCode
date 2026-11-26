@@ -13,7 +13,19 @@ Guidance for Claude Code (local and cloud sessions) working in this repository.
 - Remote: `origin` → https://github.com/Yang-Seongkyu/ClaudeCode (private)
 - Default branch: `main`
 - Local checkout lives at `D:\ClaudeCode` on Windows 11; cloud sessions use a Linux checkout.
-- Nothing has been built here yet; the project's language and stack are still to be decided.
+
+## Stack
+
+- **Java 25** (LTS), via Gradle toolchain
+- **Spring Boot 4.2** (`spring-boot-starter-webmvc`, `spring-boot-starter-data-jpa`)
+- **Gradle 9.9** wrapper (`./gradlew`, or `gradlew.bat` on Windows)
+- **H2** in-memory database for now; plan to move to MySQL later
+- Base package: `com.example.app`
+
+## Commands
+
+- Run tests: `./gradlew test`
+- Start server: `./gradlew bootRun`, then open http://localhost:8080/hello
 
 ## Conventions
 
